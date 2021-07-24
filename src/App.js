@@ -1,14 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+
+import Home from "./pages/Home";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        THIS IS AN EXAMPLE OF SPPECH SYNTHESIS IN ENGLISH
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route Path="/" exact component={Home} />
+      </Switch>
+    </Router>
   );
-}
+};
 
 export default App;
