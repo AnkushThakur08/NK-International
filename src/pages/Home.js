@@ -77,12 +77,11 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <Base />
+    <Base>
       <Carousel />
       <FeaturedCollectionSection />
       <FeaturedProductsSection />
-    </div>
+    </Base>
   );
 };
 
