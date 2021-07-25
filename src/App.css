@@ -13,3 +13,6 @@
 .nav-link:hover {
   color: #fff;
 }
+.footer_links {
+  text-decoration: none;
+}
