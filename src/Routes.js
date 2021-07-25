@@ -4,7 +4,7 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 
 import Home from "./pages/Home";
 
-const App = () => {
+const Routes = () => {
   return (
     <Router>
       <Switch>
@@ -14,4 +14,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Routes;

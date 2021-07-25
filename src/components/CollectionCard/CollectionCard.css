@@ -1,0 +1,4 @@
+#collectioncard img:hover {
+  /* -webkit-filter: blur(4px); Chrome, Safari, Opera */
+  filter: blur(2px);
+}
