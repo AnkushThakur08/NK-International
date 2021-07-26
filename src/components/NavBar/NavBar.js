@@ -1,73 +1,154 @@
 import React from "react";
 
-import logo from "../../assets/logo.jpg";
-import { FaCartPlus, FaBars } from "react-icons/fa";
+import { FaCartPlus, FaBars, FaSearch } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 
-import "../../App.css";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg text-white bg-theme">
-      <div className="container-fluid">
-        <Link to="/" className="navbar-brand text-white">
-          {/* LOGO */}
-          {/* <img class="brandlogo" alt="logo" src={logo} height="60px" /> */}
-          NK INTERNATIONAL
+    <nav
+      className="navbar navbar-expand-md navbar-light p-4"
+      style={{ background: "#929292 !important" }}
+    >
+      <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul
+          className="navbar-nav mr-auto"
+          style={{
+            fontWeight: "500",
+            fontSize: "15px",
+            fontFamily: "Montserrat, sans-serif",
+          }}
+        >
+          <li
+            className="nav-item active"
+            style={{ paddingRight: "7px", paddingLeft: "7px" }}
+          >
+            <Link to="/" className="nav-link">
+              Home
+            </Link>
+          </li>
+
+          <li className="nav-item dropdown">
+            <Link
+              to="/"
+              className="nav-link dropdown-toggle"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              style={{ paddingRight: "7px", paddingLeft: "7px" }}
+            >
+              Products
+            </Link>
+            <ul
+              className="dropdown-menu dropdown-menu-right "
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <li>
+                <Link to="/" className="dropdown-item">
+                  T-Shirt
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/" className="dropdown-item">
+                  Trousers
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/" className="dropdown-item">
+                  Formal Shirt
+                </Link>
+              </li>
+            </ul>
+          </li>
+
+          <li
+            className="nav-item"
+            style={{ paddingRight: "7px", paddingLeft: "7px" }}
+          >
+            <Link to="/" className="nav-link">
+              Women
+            </Link>
+          </li>
+
+          <li
+            className="nav-item"
+            style={{ paddingRight: "7px", paddingLeft: "7px" }}
+          >
+            <Link to="/" className="nav-link">
+              Men
+            </Link>
+          </li>
+
+          <li
+            className="nav-item"
+            style={{ paddingRight: "7px", paddingLeft: "7px" }}
+          >
+            <Link to="/" className="nav-link">
+              Kids
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div className="mx-auto order-0">
+        <Link
+          to="/"
+          className="navbar-brand mx-auto title"
+          style={{
+            fontWeight: "500",
+            fontSize: "25px",
+            fontFamily: "Montserrat, sans-serif",
+          }}
+        >
+          <b> NK INTERNATIONAL </b>
         </Link>
 
         <button
           className="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-toggle="collapse"
+          data-target=".dual-collapse2"
+          style={{ right: "15px", position: " absolute" }}
         >
-          <span className="navbar-toggler-icon">
-            <FaBars color="#fff" style={{ border: "none" }} />
-          </span>
+          <span className="navbar-toggler-icon "></span>
         </button>
+      </div>
+      <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul className="navbar-nav ms-auto">
+          <li className="nav-item">
+            <Link
+              to="/"
+              className="nav-link"
+              style={{ paddingRight: "7px", paddingLeft: "7px" }}
+            >
+              About Us
+            </Link>
+          </li>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <Link
-                to="/"
-                className="nav-link active text-white"
-                aria-current="page"
-              >
-                Home
-              </Link>
-            </li>
+          <li className="nav-item">
+            <Link
+              to="/"
+              className="nav-link"
+              style={{ paddingRight: "7px", paddingLeft: "7px" }}
+            >
+              SignIn
+            </Link>
+          </li>
 
-            <li className="nav-item">
-              <Link to="/" className="nav-link text-white">
-                Categories
-              </Link>
-            </li>
-
-            <li className="nav-item">
-              <Link to="/" className="nav-link text-white">
-                About Us
-              </Link>
-            </li>
-
-            <li className="nav-item">
-              <Link to="/" className="nav-link text-white">
-                SignIn
-              </Link>
-            </li>
-
-            <li className="nav-item">
-              <Link to="/" className="nav-link text-white">
-                <FaCartPlus size="25px" />
-              </Link>
-            </li>
-          </ul>
-        </div>
+          <li className="nav-item">
+            <Link
+              to="/"
+              className="nav-link text-dark"
+              style={{ paddingRight: "7px", paddingLeft: "7px" }}
+            >
+              <FaCartPlus size="25px" />
+            </Link>
+          </li>
+        </ul>
       </div>
     </nav>
   );

@@ -1,0 +1,35 @@
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  /*left:-100%;*/
+  left: -10rem; /* 10rem is the min-width of dropdown-menu */
+  margin-top: -6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 950px) {
+  ul {
+    font-size: 10px !important;
+  }
+  .title {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 768) {
+  .title {
+    left: 0;
+    position: absolute;
+  }
+}
+
