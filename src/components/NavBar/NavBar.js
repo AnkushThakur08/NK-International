@@ -9,7 +9,7 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <nav
-      className="navbar navbar-expand-md navbar-light p-4"
+      className="navbar navbar-expand-md navbar-light p-3"
       style={{ background: "#929292 !important" }}
     >
       <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
@@ -94,7 +94,7 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      <div className="mx-auto order-0">
+      <div className="mx-auto order-0 d-flex align-items-center">
         <Link
           to="/"
           className="navbar-brand mx-auto title"
@@ -110,11 +110,11 @@ const NavBar = () => {
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target=".dual-collapse2"
+          data-bs-toggle="collapse"
+          data-bs-target=".dual-collapse2"
           style={{ right: "15px", position: " absolute" }}
         >
-          <span className="navbar-toggler-icon "></span>
+          <FaBars />
         </button>
       </div>
       <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
