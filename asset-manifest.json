@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/NK-International/static/css/main.ee861a3d.chunk.css",
+    "main.js": "/NK-International/static/js/main.8eb8e8fd.chunk.js",
+    "main.js.map": "/NK-International/static/js/main.8eb8e8fd.chunk.js.map",
+    "runtime-main.js": "/NK-International/static/js/runtime-main.c1cd139e.js",
+    "runtime-main.js.map": "/NK-International/static/js/runtime-main.c1cd139e.js.map",
+    "static/js/2.aa7c996c.chunk.js": "/NK-International/static/js/2.aa7c996c.chunk.js",
+    "static/js/2.aa7c996c.chunk.js.map": "/NK-International/static/js/2.aa7c996c.chunk.js.map",
+    "static/js/3.ffc33fe9.chunk.js": "/NK-International/static/js/3.ffc33fe9.chunk.js",
+    "static/js/3.ffc33fe9.chunk.js.map": "/NK-International/static/js/3.ffc33fe9.chunk.js.map",
+    "index.html": "/NK-International/index.html",
+    "static/css/main.ee861a3d.chunk.css.map": "/NK-International/static/css/main.ee861a3d.chunk.css.map",
+    "static/js/2.aa7c996c.chunk.js.LICENSE.txt": "/NK-International/static/js/2.aa7c996c.chunk.js.LICENSE.txt",
+    "static/media/banner5.6cf276d8.jpg": "/NK-International/static/media/banner5.6cf276d8.jpg",
+    "static/media/banner7.169a925e.jpg": "/NK-International/static/media/banner7.169a925e.jpg",
+    "static/media/kids collection.a5b49503.jpg": "/NK-International/static/media/kids collection.a5b49503.jpg",
+    "static/media/men collection.1a1fbc68.jpg": "/NK-International/static/media/men collection.1a1fbc68.jpg",
+    "static/media/women collection.c791a4bc.jpg": "/NK-International/static/media/women collection.c791a4bc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1cd139e.js",
+    "static/js/2.aa7c996c.chunk.js",
+    "static/css/main.ee861a3d.chunk.css",
+    "static/js/main.8eb8e8fd.chunk.js"
+  ]
+}
