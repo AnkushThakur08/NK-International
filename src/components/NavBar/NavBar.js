@@ -1,6 +1,7 @@
 import React from "react";
 
 import { FaCartPlus, FaBars, FaSearch } from "react-icons/fa";
+import { GrCart } from "react-icons/gr";
 
 import { Link } from "react-router-dom";
 
@@ -9,7 +10,7 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <nav
-      className="navbar navbar-expand-md navbar-light p-3"
+      className="navbar navbar-expand-md navbar-light p-2"
       style={{ background: "#929292 !important" }}
     >
       <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
@@ -21,10 +22,7 @@ const NavBar = () => {
             fontFamily: "Montserrat, sans-serif",
           }}
         >
-          <li
-            className="nav-item active"
-            style={{ paddingRight: "7px", paddingLeft: "7px" }}
-          >
+          <li className="nav-item active ps-md-3 ps-0">
             <Link to="/" className="nav-link">
               Home
             </Link>
@@ -33,14 +31,13 @@ const NavBar = () => {
           <li className="nav-item dropdown">
             <Link
               to="/"
-              className="nav-link dropdown-toggle"
+              className="nav-link dropdown-toggle px-md-3 px-0"
               id="navbarDropdownMenuLink"
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
-              style={{ paddingRight: "7px", paddingLeft: "7px" }}
             >
-              Products
+              Categories
             </Link>
             <ul
               className="dropdown-menu dropdown-menu-right "
@@ -48,48 +45,26 @@ const NavBar = () => {
             >
               <li>
                 <Link to="/" className="dropdown-item">
-                  T-Shirt
+                  Men
                 </Link>
               </li>
 
               <li>
                 <Link to="/" className="dropdown-item">
-                  Trousers
+                  Women
                 </Link>
               </li>
 
               <li>
                 <Link to="/" className="dropdown-item">
-                  Formal Shirt
+                  Kids
                 </Link>
               </li>
             </ul>
           </li>
-
-          <li
-            className="nav-item"
-            style={{ paddingRight: "7px", paddingLeft: "7px" }}
-          >
+          <li className="nav-item">
             <Link to="/" className="nav-link">
-              Women
-            </Link>
-          </li>
-
-          <li
-            className="nav-item"
-            style={{ paddingRight: "7px", paddingLeft: "7px" }}
-          >
-            <Link to="/" className="nav-link">
-              Men
-            </Link>
-          </li>
-
-          <li
-            className="nav-item"
-            style={{ paddingRight: "7px", paddingLeft: "7px" }}
-          >
-            <Link to="/" className="nav-link">
-              Kids
+              About Us
             </Link>
           </li>
         </ul>
@@ -120,32 +95,18 @@ const NavBar = () => {
       <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <Link
-              to="/"
-              className="nav-link"
-              style={{ paddingRight: "7px", paddingLeft: "7px" }}
-            >
-              About Us
+            <Link to="/" className="nav-link">
+              SignIn/Signup
             </Link>
           </li>
 
           <li className="nav-item">
             <Link
               to="/"
-              className="nav-link"
-              style={{ paddingRight: "7px", paddingLeft: "7px" }}
+              className="nav-link px-md-3 px-0 align-items-center d-flex"
             >
-              SignIn
-            </Link>
-          </li>
-
-          <li className="nav-item">
-            <Link
-              to="/"
-              className="nav-link text-dark"
-              style={{ paddingRight: "7px", paddingLeft: "7px" }}
-            >
-              <FaCartPlus size="25px" />
+              <span className="pe-1">Cart</span>
+              <GrCart size="20px" />
             </Link>
           </li>
         </ul>

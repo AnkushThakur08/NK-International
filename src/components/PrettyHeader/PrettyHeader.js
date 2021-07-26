@@ -11,7 +11,7 @@ const PrettyHeader = ({ title, subtext }) => {
         style={{ display: "inline-block" }}
         className="text-center d-flex justify-content-center"
       >
-        <h6 className="pretty-text text-center ">
+        <h5 className="pretty-text text-center fs-3 mb-0">
           {title}
           <div
             className="bottom-style"
@@ -21,7 +21,7 @@ const PrettyHeader = ({ title, subtext }) => {
               marginTop: "-6px",
             }}
           ></div>
-        </h6>
+        </h5>
       </div>
       <p
         className=""
