@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/NK-International/static/css/main.17496b2a.chunk.css",
-    "main.js": "/NK-International/static/js/main.f36ed463.chunk.js",
-    "main.js.map": "/NK-International/static/js/main.f36ed463.chunk.js.map",
+    "main.js": "/NK-International/static/js/main.fd74915a.chunk.js",
+    "main.js.map": "/NK-International/static/js/main.fd74915a.chunk.js.map",
     "runtime-main.js": "/NK-International/static/js/runtime-main.c1cd139e.js",
     "runtime-main.js.map": "/NK-International/static/js/runtime-main.c1cd139e.js.map",
     "static/js/2.aa7c996c.chunk.js": "/NK-International/static/js/2.aa7c996c.chunk.js",
@@ -13,11 +13,11 @@
     "static/css/main.17496b2a.chunk.css.map": "/NK-International/static/css/main.17496b2a.chunk.css.map",
     "static/js/2.aa7c996c.chunk.js.LICENSE.txt": "/NK-International/static/js/2.aa7c996c.chunk.js.LICENSE.txt",
     "static/media/Banner3.6f44bda6.jpg": "/NK-International/static/media/Banner3.6f44bda6.jpg",
-    "static/media/BannerImage1.fdc7f16a.webp": "/NK-International/static/media/BannerImage1.fdc7f16a.webp",
-    "static/media/BannerImage2.a27c0b4e.webp": "/NK-International/static/media/BannerImage2.a27c0b4e.webp",
+    "static/media/BannerImage1.e5add56a.jpg": "/NK-International/static/media/BannerImage1.e5add56a.jpg",
+    "static/media/BannerImage2.03ecb05a.jpg": "/NK-International/static/media/BannerImage2.03ecb05a.jpg",
     "static/media/img1.cb8eb89b.jpg": "/NK-International/static/media/img1.cb8eb89b.jpg",
-    "static/media/img2.e59c2f4e.webp": "/NK-International/static/media/img2.e59c2f4e.webp",
-    "static/media/img3.e63957da.webp": "/NK-International/static/media/img3.e63957da.webp",
+    "static/media/img2.21241205.jpg": "/NK-International/static/media/img2.21241205.jpg",
+    "static/media/img3.629032d0.jpg": "/NK-International/static/media/img3.629032d0.jpg",
     "static/media/kids collection.a5b49503.jpg": "/NK-International/static/media/kids collection.a5b49503.jpg",
     "static/media/men collection.1a1fbc68.jpg": "/NK-International/static/media/men collection.1a1fbc68.jpg",
     "static/media/women collection.c791a4bc.jpg": "/NK-International/static/media/women collection.c791a4bc.jpg"
@@ -26,6 +26,6 @@
     "static/js/runtime-main.c1cd139e.js",
     "static/js/2.aa7c996c.chunk.js",
     "static/css/main.17496b2a.chunk.css",
-    "static/js/main.f36ed463.chunk.js"
+    "static/js/main.fd74915a.chunk.js"
   ]
 }
