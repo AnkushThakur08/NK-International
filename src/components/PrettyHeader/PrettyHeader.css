@@ -1,10 +1,11 @@
 .pretty-header .pretty-text {
   text-align: left;
   /* font-family: PlayfairDisplay !important; */
+  font-family: "Libre Baskerville" !important;
   letter-spacing: 0px;
   color: #384355;
   opacity: 1;
-  font-size: 22px;
+  font-size: 30px !important;
 }
 
 @media (min-width: 768px) {

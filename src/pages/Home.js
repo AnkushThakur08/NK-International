@@ -8,6 +8,9 @@ import { CollectionCard } from "../components/CollectionCard/CollectionCard";
 import menCollection from "../assets/men collection.jpg";
 import womenCollection from "../assets/women collection.jpg";
 import kidsCollection from "../assets/kids collection.jpg";
+import img1 from "../assets/img1.jpg";
+import img2 from "../assets/img2.webp";
+import img3 from "../assets/img3.webp";
 import PrettyHeader from "../components/PrettyHeader/PrettyHeader";
 import ProductCard from "../components/ProductCard/ProductCard";
 
@@ -15,11 +18,13 @@ const Home = () => {
   const FeaturedCollectionSection = () => {
     return (
       <div className="mt-4">
-        <PrettyHeader title="Featured Collection" />
+        <PrettyHeader title="Trending Now" />
         <div className="d-flex justify-content-evenly flex-row flex-wrap">
-          <CollectionCard image={menCollection} />
-          <CollectionCard image={womenCollection} />
-          <CollectionCard image={kidsCollection} />
+          <CollectionCard image={img1} />
+
+          <CollectionCard image={img2} />
+
+          <CollectionCard image={img3} />
         </div>
       </div>
     );

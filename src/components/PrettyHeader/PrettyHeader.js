@@ -4,7 +4,7 @@ import "./PrettyHeader.css";
 const PrettyHeader = ({ title, subtext }) => {
   return (
     <div
-      className="pretty-header d-block justify-content-center justify-content-md-start d-md-block"
+      className="pretty-header d-block justify-content-center justify-content-md-start d-md-block py-3"
       style={{ display: "inline-block" }}
     >
       <div
@@ -28,9 +28,9 @@ const PrettyHeader = ({ title, subtext }) => {
         style={{
           color: "#384355",
           textAlign: "center",
-          fontStyle: "Poppins",
-          fontWeight: "500",
+          fontWeight: "700",
           fontSize: "14px",
+          fontFamily: "Libre Baskerville",
         }}
       >
         {subtext}

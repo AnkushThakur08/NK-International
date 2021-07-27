@@ -96,7 +96,7 @@ const NavBar = () => {
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
             <Link to="/" className="nav-link">
-              SignIn/Signup
+              Login
             </Link>
           </li>
 
