@@ -9,8 +9,8 @@ import menCollection from "../assets/men collection.jpg";
 import womenCollection from "../assets/women collection.jpg";
 import kidsCollection from "../assets/kids collection.jpg";
 import img1 from "../assets/img1.jpg";
-import img2 from "../assets/img2.webp";
-import img3 from "../assets/img3.webp";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
 import PrettyHeader from "../components/PrettyHeader/PrettyHeader";
 import ProductCard from "../components/ProductCard/ProductCard";
 
