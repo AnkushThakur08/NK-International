@@ -3,12 +3,14 @@ import "./App.css";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 
 import Home from "./pages/Home";
+import allProducts from "./pages/AllProducts/AllProducts";
 
 const Routes = () => {
   return (
     <Router>
       <Switch>
-        <Route Path="/" exact component={Home} />
+        <Route path="/" exact component={Home} />
+        <Route path="/products" exact component={allProducts} />
       </Switch>
     </Router>
   );
