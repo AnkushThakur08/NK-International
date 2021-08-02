@@ -41,7 +41,6 @@ const ProductCard = ({
             style={{
               letterSpacing: "0.58px",
               color: "#000000",
-
               fontWeight: "500",
             }}
           >

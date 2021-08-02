@@ -1,0 +1,12 @@
+.FilterCollection input.largerCheckbox {
+  width: 22px;
+  height: 22px;
+}
+
+.FilterCollection .largerCheckbox-label {
+  font-size: 14px;
+}
+
+.customButton {
+  width: 40px;
+}
