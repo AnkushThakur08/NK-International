@@ -9,7 +9,7 @@ const ProductCard = ({
   price = "NA",
 }) => {
   return (
-    <a id="product-card" href="/product" className="btn text-start rounded-3">
+    <a id="product-card" className="btn text-start rounded-3">
       <div className="card mt-1" style={{ border: "none" }}>
         <Link to="/product">
           <img src={imageUrl} className="card-img-top" alt="product" />
