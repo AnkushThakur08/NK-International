@@ -13,14 +13,13 @@ const Product = () => {
     name: "productName",
     category: "MEN",
 
-    description: `Sneaker meets Oxford in these exquisite pair of Corte ultra-light sneakers.
-    Burjua keeps your sneaker style both fashionably refined and comfortable at same time.`,
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
 
     articleNo: 34,
     mrp: 400,
 
     colors: ["red", "blue", "green", "yellow"],
-    sizes: [22, 36, 42],
+    sizes: ["XS", "S", "M", "L", "XL"],
     updatedAt: "2020-07-29T04:42:30.373Z",
     createdAt: "2020-07-29T04:42:30.373Z",
     pics: ["sdfsd.png", "dsdfsf.png"],
