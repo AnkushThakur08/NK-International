@@ -9,9 +9,9 @@ const ProductCard = ({
   price = "NA",
 }) => {
   return (
-    <a id="product-card" className="btn text-start rounded-3">
-      <div className="card mt-1" style={{ border: "none" }}>
-        <Link to="/product">
+    <Link to="/product">
+      <a id="product-card" className="btn text-start rounded-3">
+        <div className="card mt-1" style={{ border: "none" }}>
           <img src={imageUrl} className="card-img-top" alt="product" />
           <div className="card-body p-1 ps-2">
             <p
@@ -50,9 +50,9 @@ const ProductCard = ({
               ₹ {price}
             </p>
           </div>
-        </Link>
-      </div>
-    </a>
+        </div>
+      </a>
+    </Link>
   );
 };
 export default ProductCard;
