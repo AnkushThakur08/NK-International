@@ -6,6 +6,8 @@ import Banner1 from "../../assets/BannerImage1.jpg";
 import Banner2 from "../../assets/BannerImage2.jpg";
 import Banner3 from "../../assets/Banner3.jpg";
 
+import { Link } from "react-router-dom";
+
 const Carousel = () => {
   return (
     <div
@@ -40,13 +42,21 @@ const Carousel = () => {
       {/* Carousel Main Content */}
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={Banner1} className="d-block w-100" alt="banner" />
+          <Link to="/products">
+            <img src={Banner1} className="d-block w-100" alt="banner" />
+          </Link>
         </div>
+
         <div className="carousel-item ">
-          <img src={Banner2} className="d-block w-100" alt="banner2" />
+          <Link to="/products">
+            <img src={Banner2} className="d-block w-100" alt="banner2" />
+          </Link>
         </div>
+
         <div className="carousel-item">
-          <img src={Banner3} className="d-block w-100" alt="banner" />
+          <Link to="/products">
+            <img src={Banner3} className="d-block w-100" alt="banner" />
+          </Link>
         </div>
       </div>
     </div>
