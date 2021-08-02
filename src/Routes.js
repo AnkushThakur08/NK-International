@@ -8,11 +8,11 @@ import allProducts from "./pages/AllProducts/AllProducts";
 
 const Routes = () => {
   return (
-    <Router>
+    <Router basename={`${process.env.PUBLIC_URL} + "/"`}>
       <Switch>
-        <Route path="/" exact component={Home} />
         <Route path="/product" exact component={Product} />
         <Route path="/products" exact component={allProducts} />
+        <Route path="/" exact component={Home} />
       </Switch>
     </Router>
   );
