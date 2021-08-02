@@ -10,10 +10,7 @@ const Routes = () => {
   return (
     <Router basename={`${process.env.PUBLIC_URL} + "/"`}>
       <Switch>
-<<<<<<< HEAD
-=======
         <Route path="/" component={Home} />
->>>>>>> 6fdec7563f709738ffb46564442df89df1246ae4
         <Route path="/product" exact component={Product} />
         <Route path="/products" exact component={allProducts} />
         <Route path="/" exact component={Home} />
