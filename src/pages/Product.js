@@ -110,17 +110,21 @@ const Product = () => {
                 <div
                   className="product-title font-weight-bold mt-2"
                   style={{
+                    fontFamily: "Libra",
                     fontSize: "24px",
                     letterSpacing: "0.86px",
                     color: "#051220",
+                    fontWeight: "600",
+
                     textTTransform: "capitalize",
                   }}
                 >
                   Men Classic t-shirt
                 </div>
                 <div
-                  className="product-price mt-3"
+                  className="product-price mt-2"
                   style={{
+                    fontFamily: "Libra",
                     fontSize: "20px",
                     letterSpacing: "0.72px",
                     color: "#073260",
@@ -128,20 +132,24 @@ const Product = () => {
                 >
                   ₹ 700
                 </div>
-                <div className="product-description mt-3">
+                <div className="product-description mt-2">
                   <div
                     className="text"
                     style={{
                       fontWeight: "600",
                       fontSize: "16px",
+                      fontFamily: "Libra",
                       letterSpacing: "0.43px",
                     }}
                   >
                     DESCRIPTION
                   </div>
                   <div
-                    className="subtext mt-2"
-                    style={{ fontSize: "16px", lineHeight: "18px" }}
+                    className="subtext mt-2 "
+                    style={{
+                      fontSize: "16px",
+                      lineHeight: "18px",
+                    }}
                   >
                     {description}
                   </div>
@@ -153,7 +161,8 @@ const Product = () => {
                     fontSize: "14px",
                     fontWeight: "600",
                     letterSpacing: "0.43px",
-                    color: "#929292",
+                    color: "#000",
+
                     textTransform: "uppercase",
                   }}
                 >
@@ -164,6 +173,7 @@ const Product = () => {
                     className="text"
                     style={{
                       letterSpacing: "0.43px",
+                      fontFamily: "Libra",
                       fontWeight: "600",
                       fontSize: "12px",
                     }}
@@ -180,7 +190,8 @@ const Product = () => {
                     className="text"
                     style={{
                       letterSpacing: "0.43px",
-                      fontWeight: "500",
+                      fontWeight: "600",
+                      fontFamily: "Libra",
                       fontSize: "12px",
                     }}
                   >
@@ -200,6 +211,7 @@ const Product = () => {
                       letterSpacing: "0.43px",
                       fontWeight: "600",
                       fontSize: "12px",
+                      fontFamily: "Libra",
                     }}
                   >
                     QUANTITY
