@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="text-center text-lg-start footer-main border-top bg-white">
-      <div className="container p-4">
+      <div className="container p-md-4 p-2">
         <div className="row">
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-center">
             <h5 className="text-uppercase">POLICY</h5>
