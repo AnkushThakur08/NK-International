@@ -41,16 +41,12 @@ const CartCard = ({ name, size, quantity, price }) => {
               fontSize: "24px",
               letterSpacing: "0.86px",
               color: "#051220",
-              fontWeight: "600",
             }}
           >
             {name}
           </div>
           <div className="details d-flex justify-content-between align-items-center">
-            <div
-              className="size"
-              style={{ fontWeight: "600", fontFamily: "Libra" }}
-            >
+            <div className="size" style={{ fontFamily: "Libra" }}>
               <span
                 style={{
                   fontSize: "13px",
@@ -63,10 +59,7 @@ const CartCard = ({ name, size, quantity, price }) => {
               </span>
               {size}
             </div>
-            <div
-              className="quantity"
-              style={{ fontWeight: "600", fontFamily: "Libra" }}
-            >
+            <div className="quantity" style={{ fontFamily: "Libra" }}>
               <span
                 style={{
                   fontSize: "13px",
@@ -87,7 +80,8 @@ const CartCard = ({ name, size, quantity, price }) => {
               fontSize: "20px",
               letterSpacing: "0.86px",
               color: "#051220",
-              fontWeight: "600",
+
+              fontFamily: "Libra",
             }}
           >
             ₹ {price}
