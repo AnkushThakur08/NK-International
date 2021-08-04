@@ -95,8 +95,13 @@ const NavBar = () => {
       <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <Link to="/" className="nav-link">
-              Login
+            <Link
+              className="nav-link"
+              style={{ cursor: "pointer" }}
+              data-bs-toggle="modal"
+              data-bs-target="#signinModal"
+            >
+              SignIn
             </Link>
           </li>
 
