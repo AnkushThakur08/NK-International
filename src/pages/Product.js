@@ -3,6 +3,7 @@ import Base from "../components/Base/Base";
 
 import { CgShoppingBag } from "react-icons/cg";
 import { ToggleButton, ToggleButtonGroup } from "@material-ui/lab";
+import { Link } from "react-router-dom";
 import QuantityInput from "../components/QuantityInput/QuantityInput";
 import ProductImageShowcase from "../components/ProductImageShowcase/ProductImageShowcase";
 
@@ -237,17 +238,19 @@ const Product = () => {
                       </span>
                       ADD TO MY BAG
                     </button>
-                    <button
-                      className="btn text-white ml-3"
-                      style={{
-                        letterSpacing: "0.43px",
-                        backgroundColor: "#384355",
-                        fontSize: "12px",
-                        fontWeight: "500",
-                      }}
-                    >
-                      BUY NOW
-                    </button>
+                    <Link to="/cart">
+                      <button
+                        className="btn text-white ml-3"
+                        style={{
+                          letterSpacing: "0.43px",
+                          backgroundColor: "#384355",
+                          fontSize: "12px",
+                          fontWeight: "500",
+                        }}
+                      >
+                        BUY NOW
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
