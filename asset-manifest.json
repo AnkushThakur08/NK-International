@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/NK-International/static/css/main.6126dc8a.chunk.css",
-    "main.js": "/NK-International/static/js/main.eafbbf4e.chunk.js",
-    "main.js.map": "/NK-International/static/js/main.eafbbf4e.chunk.js.map",
-    "runtime-main.js": "/NK-International/static/js/runtime-main.e0b02ab3.js",
-    "runtime-main.js.map": "/NK-International/static/js/runtime-main.e0b02ab3.js.map",
-    "static/js/2.739c6382.chunk.js": "/NK-International/static/js/2.739c6382.chunk.js",
-    "static/js/2.739c6382.chunk.js.map": "/NK-International/static/js/2.739c6382.chunk.js.map",
-    "static/js/3.9e08511c.chunk.js": "/NK-International/static/js/3.9e08511c.chunk.js",
-    "static/js/3.9e08511c.chunk.js.map": "/NK-International/static/js/3.9e08511c.chunk.js.map",
+    "main.css": "/NK-International/static/css/main.aba2fa02.chunk.css",
+    "main.js": "/NK-International/static/js/main.62a0d445.chunk.js",
+    "main.js.map": "/NK-International/static/js/main.62a0d445.chunk.js.map",
+    "runtime-main.js": "/NK-International/static/js/runtime-main.f91c3b59.js",
+    "runtime-main.js.map": "/NK-International/static/js/runtime-main.f91c3b59.js.map",
+    "static/js/2.7c8bc8fe.chunk.js": "/NK-International/static/js/2.7c8bc8fe.chunk.js",
+    "static/js/2.7c8bc8fe.chunk.js.map": "/NK-International/static/js/2.7c8bc8fe.chunk.js.map",
+    "static/js/3.6d02d3fe.chunk.js": "/NK-International/static/js/3.6d02d3fe.chunk.js",
+    "static/js/3.6d02d3fe.chunk.js.map": "/NK-International/static/js/3.6d02d3fe.chunk.js.map",
     "index.html": "/NK-International/index.html",
-    "static/css/main.6126dc8a.chunk.css.map": "/NK-International/static/css/main.6126dc8a.chunk.css.map",
-    "static/js/2.739c6382.chunk.js.LICENSE.txt": "/NK-International/static/js/2.739c6382.chunk.js.LICENSE.txt",
+    "static/css/main.aba2fa02.chunk.css.map": "/NK-International/static/css/main.aba2fa02.chunk.css.map",
+    "static/js/2.7c8bc8fe.chunk.js.LICENSE.txt": "/NK-International/static/js/2.7c8bc8fe.chunk.js.LICENSE.txt",
     "static/media/Banner3.6f44bda6.jpg": "/NK-International/static/media/Banner3.6f44bda6.jpg",
     "static/media/BannerImage1.e5add56a.jpg": "/NK-International/static/media/BannerImage1.e5add56a.jpg",
     "static/media/BannerImage2.03ecb05a.jpg": "/NK-International/static/media/BannerImage2.03ecb05a.jpg",
+    "static/media/about.50ee66da.jpeg": "/NK-International/static/media/about.50ee66da.jpeg",
     "static/media/dropdown-icon.b08d821e.svg": "/NK-International/static/media/dropdown-icon.b08d821e.svg",
     "static/media/filterSortIcon.a55d3755.svg": "/NK-International/static/media/filterSortIcon.a55d3755.svg",
     "static/media/img1.cb8eb89b.jpg": "/NK-International/static/media/img1.cb8eb89b.jpg",
@@ -25,9 +26,9 @@
     "static/media/women collection.c791a4bc.jpg": "/NK-International/static/media/women collection.c791a4bc.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0b02ab3.js",
-    "static/js/2.739c6382.chunk.js",
-    "static/css/main.6126dc8a.chunk.css",
-    "static/js/main.eafbbf4e.chunk.js"
+    "static/js/runtime-main.f91c3b59.js",
+    "static/js/2.7c8bc8fe.chunk.js",
+    "static/css/main.aba2fa02.chunk.css",
+    "static/js/main.62a0d445.chunk.js"
   ]
 }
