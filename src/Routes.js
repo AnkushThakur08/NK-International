@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Product from "./pages/Product";
 import allProducts from "./pages/AllProducts/AllProducts";
 import Cart from "./pages/Cart";
+import About from "./pages/About/About";
 
 const Routes = () => {
   return (
@@ -14,6 +15,7 @@ const Routes = () => {
         <Route path="/product" exact component={Product} />
         <Route path="/products" exact component={allProducts} />
         <Route path="/cart" exact component={Cart} />
+        <Route path="/about" exact component={About} />
         <Route path="/" exact component={Home} />
       </Switch>
     </Router>
