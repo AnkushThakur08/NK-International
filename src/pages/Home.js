@@ -14,6 +14,85 @@ import img3 from "../assets/img3.jpg";
 import PrettyHeader from "../components/PrettyHeader/PrettyHeader";
 import ProductCard from "../components/ProductCard/ProductCard";
 
+const products = [
+  {
+    name: "Men Classic t-shirt",
+
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+
+    price: "2000",
+
+    stock: 200,
+
+    category: "Men",
+    color: ["red", "green", "yellow", "blue"],
+    size: ["XS", "S", "M", "L", "XL"],
+    images: [
+      "https://source.unsplash.com/1600x900/?tshirt,men",
+      "https://source.unsplash.com/1600x900/?tshirt,men",
+      "https://source.unsplash.com/1600x900/?tshirt,men",
+    ],
+  },
+  {
+    name: "kids Classic t-shirt",
+
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+
+    price: "2000",
+
+    stock: 200,
+
+    category: "Men",
+    color: ["red", "green", "yellow", "blue"],
+    size: ["XS", "S", "M", "L", "XL"],
+    images: [
+      "https://source.unsplash.com/1600x900/?tshirt,kids",
+      "https://source.unsplash.com/1600x900/?tshirt,kids",
+      "https://source.unsplash.com/1600x900/?tshirt,kids",
+    ],
+  },
+  {
+    name: "Women Classic t-shirt",
+
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+
+    price: "2000",
+
+    stock: 200,
+
+    category: "Men",
+    color: ["red", "green", "yellow", "blue"],
+    size: ["XS", "S", "M", "L", "XL"],
+    images: [
+      "https://source.unsplash.com/1600x900/?tshirt,women",
+      "https://source.unsplash.com/1600x900/?tshirt,women",
+      "https://source.unsplash.com/1600x900/?tshirt,women",
+    ],
+  },
+  {
+    name: "Men Classic t-shirt",
+
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+
+    price: "2000",
+
+    stock: 200,
+
+    category: "Men",
+    color: ["red", "green", "yellow", "blue"],
+    size: ["XS", "S", "M", "L", "XL"],
+    images: [
+      "https://source.unsplash.com/1600x900/?tshirt,men",
+      "https://source.unsplash.com/1600x900/?tshirt,men",
+      "https://source.unsplash.com/1600x900/?tshirt,men",
+    ],
+  },
+];
+
 const Home = () => {
   const FeaturedCollectionSection = () => {
     return (
