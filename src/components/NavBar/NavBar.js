@@ -11,8 +11,30 @@ import './NavBar.css';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-light p-2" style={{ background: '#929292 !important' }}>
-      <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+    <nav className="navbar navbar-expand-md navbar-light p-2 mb-md-0 mb-2" style={{ background: '#929292 !important' }}>
+      <div className="d-flex align-items-center">
+        <Link to="/" className="navbar-brand mx-auto title">
+          <img
+            style={{
+              width: '30px',
+              height: '30px',
+            }}
+            src={logo}
+          />
+        </Link>
+
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target=".dual-collapse2"
+          style={{ right: '15px', top: '10px', position: ' absolute' }}
+        >
+          <FaBars />
+        </button>
+      </div>
+
+      <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2 mb-0">
         <ul
           className="navbar-nav mr-auto"
           style={{
@@ -21,19 +43,6 @@ const NavBar = () => {
             fontFamily: 'Montserrat, sans-serif',
           }}
         >
-          <li className="nav-item active ps-md-3 ps-0">
-            <Link to="/" className="nav-link">
-              {/* Home */}
-              <img
-                style={{
-                  width: '30px',
-                  height: '30px',
-                }}
-                src={logo}
-              />
-            </Link>
-          </li>
-
           <li className="nav-item dropdown">
             <Link
               to="/"
@@ -71,29 +80,6 @@ const NavBar = () => {
             </Link>
           </li>
         </ul>
-      </div>
-      <div className="mx-auto order-0 d-flex align-items-center">
-        {/* <Link
-          to="/"
-          className="navbar-brand mx-auto title"
-          style={{
-            fontWeight: '500',
-            fontSize: '25px',
-            fontFamily: 'Montserrat, sans-serif',
-          }}
-        >
-          <b> NK INTERNATIONAL </b>
-        </Link> */}
-
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target=".dual-collapse2"
-          style={{ right: '15px', position: ' absolute' }}
-        >
-          <FaBars />
-        </button>
       </div>
       <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul className="navbar-nav ms-auto">
